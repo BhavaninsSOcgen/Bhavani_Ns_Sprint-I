@@ -16,7 +16,6 @@ namespace Sprint3Project.test
     {
 
         [Fact]
-
         public void GetProjectById_test()
         {
 
@@ -36,7 +35,6 @@ namespace Sprint3Project.test
         }
 
         [Fact]
-
         public void GetAllProjects_test()
         {
             var ProjectMock = new Mock<IProjectModule>();
@@ -59,7 +57,6 @@ namespace Sprint3Project.test
         }
 
         [Fact]
-
         public void DeleteProject_test()
         {
             var ProjectMock = new Mock<IProjectModule>();
@@ -71,7 +68,6 @@ namespace Sprint3Project.test
 
         }
         [Fact]
-
         public void UpdateProject_test()
         {
             var ProjectMock = new Mock<IProjectModule>();

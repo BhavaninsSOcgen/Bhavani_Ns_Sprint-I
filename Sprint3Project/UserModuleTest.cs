@@ -14,7 +14,6 @@ namespace Sprint3Project.test
     public class UserModuleTest
     {
         [Fact]
-
         public void GetUserById_test()
         {
 
@@ -29,12 +28,9 @@ namespace Sprint3Project.test
             Assert.Equal(expected.LastName, actual.LastName);
             Assert.Equal(expected.Email, actual.Email);
             Assert.Equal(expected.Password, actual.Password);
-
-
         }
 
         [Fact]
-
         public void GetAllUsers_test()
         {
 
@@ -49,7 +45,6 @@ namespace Sprint3Project.test
         }
 
         [Fact]
-
         public void AddUser_test()
         {
             var UserMock = new Mock<IUserModule>();
@@ -75,7 +70,6 @@ namespace Sprint3Project.test
         }
 
         [Fact]
-
         public void UpdateUser_test()
         {
             var UserMock = new Mock<IUserModule>();
